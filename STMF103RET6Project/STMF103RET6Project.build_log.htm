@@ -27,7 +27,24 @@ Project File Date:  03/09/2019
 <h2>Output:</h2>
 *** Using Compiler 'V6.11', folder: 'D:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'STMF103RET6Project'
-"STMF103RET6Project\STMF103RET6Project.axf" - 0 Error(s), 0 Warning(s).
+../Application/USART/usart_cfg.c(382): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                                USART_Printf(USARTx, "=>><BD><D3><CA>մ<AE><BF><DA>%d<B7><A2><C9><FA><B3><AC>ʱ<B4><ED><CE><F3>!<<=\r\n", (USARTx->msgIndex - 1));
+                                                         ^~~~~~~~~~~~ ~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~
+../Application/USART/usart_cfg.c(405): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                                USART_Printf(USARTx, "=>><B7><A2><CB>ʹ<AE><BF><DA>%d<B7><A2><C9><FA><B3><AC>ʱ<B4><ED><CE><F3>!<<=\r\n", (USARTx->msgIndex - 1));
+                                                         ^~~~~~~~~~~~ ~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~
+../Application/USART/usart_cfg.c(1008): warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../Application/USART/usart_cfg.c(1957): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        USART_Printf(USARTx, "=>><B4><AE><BF><DA>1<B5>ĳ<F5>ʼ<BB><AF><<=\r\n");
+                                 ^~~~~~~~~~~~~~~~ ~~~~ ~~~~ ~~~~~~~~
+4 warnings generated.
+compiling usart_cfg.c...
+linking...
+Program Size: Code=40298 RO-data=1606 RW-data=332 ZI-data=9292  
+FromELF: creating hex file...
+"STMF103RET6Project\STMF103RET6Project.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -50,7 +67,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.1.2
-Build Time Elapsed:  00:00:05
+Build Time Elapsed:  00:00:07
 </pre>
 </body>
 </html>

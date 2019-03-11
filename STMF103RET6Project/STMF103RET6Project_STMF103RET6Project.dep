@@ -185,9 +185,9 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_wwdg.h)(0x5BF35E2B)
 I (..\Application\IWDG\iwdg_task.h)(0x5C711FE4)
 I (..\Application\IWDG\iwdg_lib.h)(0x5C711FE3)
 I (..\Application\IWDG\iwdg_cfg.h)(0x5C711FE2)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Application\GPIO\gpio_task.h)(0x5C711FC6)
 I (..\Application\GPIO\gpio_lib.h)(0x5C711FC5)
 I (..\Application\GPIO\gpio_cfg.h)(0x5C824ABB)
@@ -1769,12 +1769,12 @@ I (..\Application\Encode\encode_cfg.h)(0x5C7919E7)
 I (..\Application\Timer\timer_task.h)(0x5C712054)
 I (..\Application\Timer\timer_lib.h)(0x5C712053)
 I (..\Application\Timer\timer_cfg.h)(0x5C7919B6)
-I (..\Application\HMC472\hmc472_task.h)(0x5C85D045)
-I (..\Application\HMC472\hmc472_lib.h)(0x5C85D045)
-I (..\Application\HMC472\hmc472_cfg.h)(0x5C85D045)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+I (..\Application\HMC472\hmc472_task.h)(0x5C85F9D5)
+I (..\Application\HMC472\hmc472_lib.h)(0x5C85F98F)
+I (..\Application\HMC472\hmc472_cfg.h)(0x5C8640E6)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Application\LED\led_task.h)(0x5C711FF5)
 I (..\Application\LED\led_lib.h)(0x5C711FF4)
 I (..\Application\LED\led_cfg.h)(0x5C78FBC4)
@@ -2657,9 +2657,9 @@ I (..\Application\WM8510\wm8510_cfg.h)(0x5C71206F)
 I (..\Application\I2C\i2c_task.h)(0x5C711FD2)
 I (..\Application\I2C\i2c_lib.h)(0x5C711FD1)
 I (..\Application\I2C\i2c_cfg.h)(0x5C711FCF)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
@@ -2761,9 +2761,9 @@ I (..\Application\WM8510\wm8510_cfg.h)(0x5C71206F)
 I (..\Application\I2C\i2c_task.h)(0x5C711FD2)
 I (..\Application\I2C\i2c_lib.h)(0x5C711FD1)
 I (..\Application\I2C\i2c_cfg.h)(0x5C711FCF)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
@@ -2865,9 +2865,9 @@ I (..\Application\WM8510\wm8510_cfg.h)(0x5C71206F)
 I (..\Application\I2C\i2c_task.h)(0x5C711FD2)
 I (..\Application\I2C\i2c_lib.h)(0x5C711FD1)
 I (..\Application\I2C\i2c_cfg.h)(0x5C711FCF)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
@@ -4693,8 +4693,8 @@ I (..\Application\IWDG\iwdg_task.h)(0x5C711FE4)
 I (..\Application\IWDG\iwdg_lib.h)(0x5C711FE3)
 I (..\Application\IWDG\iwdg_cfg.h)(0x5C711FE2)
 F (..\Application\GPIO\gpio_task.h)(0x5C711FC6)()
-F (..\Application\HMC472\hmc472_cfg.c)(0x5C85D0E4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/hmc472_cfg.o -MD)
-I (..\Application\HMC472\hmc472_cfg.h)(0x5C85D045)
+F (..\Application\HMC472\hmc472_cfg.c)(0x5C85F98F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/hmc472_cfg.o -MD)
+I (..\Application\HMC472\hmc472_cfg.h)(0x5C8640E6)
 I (..\Complier\complier_lib.h)(0x5C71207C)
 I (..\Complier\complier_cfg.h)(0x5C71207B)
 I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
@@ -4762,10 +4762,10 @@ I (..\Application\Delay\delay_cfg.h)(0x5C711FAB)
 I (..\Application\SysTick\systick_task.h)(0x5C71204D)
 I (..\Application\SysTick\systick_lib.h)(0x5C71204C)
 I (..\Application\SysTick\systick_cfg.h)(0x5C71204B)
-F (..\Application\HMC472\hmc472_cfg.h)(0x5C85D045)()
-F (..\Application\HMC472\hmc472_lib.c)(0x5C85D045)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/hmc472_lib.o -MD)
-I (..\Application\HMC472\hmc472_lib.h)(0x5C85D045)
-I (..\Application\HMC472\hmc472_cfg.h)(0x5C85D045)
+F (..\Application\HMC472\hmc472_cfg.h)(0x5C8640E6)()
+F (..\Application\HMC472\hmc472_lib.c)(0x5C85F98F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/hmc472_lib.o -MD)
+I (..\Application\HMC472\hmc472_lib.h)(0x5C85F98F)
+I (..\Application\HMC472\hmc472_cfg.h)(0x5C8640E6)
 I (..\Complier\complier_lib.h)(0x5C71207C)
 I (..\Complier\complier_cfg.h)(0x5C71207B)
 I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
@@ -4833,11 +4833,11 @@ I (..\Application\Delay\delay_cfg.h)(0x5C711FAB)
 I (..\Application\SysTick\systick_task.h)(0x5C71204D)
 I (..\Application\SysTick\systick_lib.h)(0x5C71204C)
 I (..\Application\SysTick\systick_cfg.h)(0x5C71204B)
-F (..\Application\HMC472\hmc472_lib.h)(0x5C85D045)()
-F (..\Application\HMC472\hmc472_task.c)(0x5C85D045)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/hmc472_task.o -MD)
-I (..\Application\HMC472\hmc472_task.h)(0x5C85D045)
-I (..\Application\HMC472\hmc472_lib.h)(0x5C85D045)
-I (..\Application\HMC472\hmc472_cfg.h)(0x5C85D045)
+F (..\Application\HMC472\hmc472_lib.h)(0x5C85F98F)()
+F (..\Application\HMC472\hmc472_task.c)(0x5C8640FC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/hmc472_task.o -MD)
+I (..\Application\HMC472\hmc472_task.h)(0x5C85F9D5)
+I (..\Application\HMC472\hmc472_lib.h)(0x5C85F98F)
+I (..\Application\HMC472\hmc472_cfg.h)(0x5C8640E6)
 I (..\Complier\complier_lib.h)(0x5C71207C)
 I (..\Complier\complier_cfg.h)(0x5C71207B)
 I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
@@ -4905,13 +4905,13 @@ I (..\Application\Delay\delay_cfg.h)(0x5C711FAB)
 I (..\Application\SysTick\systick_task.h)(0x5C71204D)
 I (..\Application\SysTick\systick_lib.h)(0x5C71204C)
 I (..\Application\SysTick\systick_cfg.h)(0x5C71204B)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
-F (..\Application\HMC472\hmc472_task.h)(0x5C85D045)()
+F (..\Application\HMC472\hmc472_task.h)(0x5C85F9D5)()
 F (..\Application\HMC830\hmc830_cfg.c)(0x5B9B3D43)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/hmc830_cfg.o -MD)
 F (..\Application\HMC830\hmc830_cfg.h)(0x5C711FCA)()
 F (..\Application\HMC830\hmc830_lib.c)(0x5BE56CD1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/hmc830_lib.o -MD)
@@ -5862,9 +5862,9 @@ I (..\Application\WM8510\wm8510_cfg.h)(0x5C71206F)
 I (..\Application\I2C\i2c_task.h)(0x5C711FD2)
 I (..\Application\I2C\i2c_lib.h)(0x5C711FD1)
 I (..\Application\I2C\i2c_cfg.h)(0x5C711FCF)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
@@ -5966,9 +5966,9 @@ I (..\Application\WM8510\wm8510_cfg.h)(0x5C71206F)
 I (..\Application\I2C\i2c_task.h)(0x5C711FD2)
 I (..\Application\I2C\i2c_lib.h)(0x5C711FD1)
 I (..\Application\I2C\i2c_cfg.h)(0x5C711FCF)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
@@ -6070,9 +6070,9 @@ I (..\Application\WM8510\wm8510_cfg.h)(0x5C71206F)
 I (..\Application\I2C\i2c_task.h)(0x5C711FD2)
 I (..\Application\I2C\i2c_lib.h)(0x5C711FD1)
 I (..\Application\I2C\i2c_cfg.h)(0x5C711FCF)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
@@ -9174,8 +9174,8 @@ I (..\Application\SysTick\systick_task.h)(0x5C71204D)
 I (..\Application\SysTick\systick_lib.h)(0x5C71204C)
 I (..\Application\SysTick\systick_cfg.h)(0x5C71204B)
 F (..\Application\Timer\timer_task.h)(0x5C712054)()
-F (..\Application\USART\usart_cfg.c)(0x5C823F5C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/usart_cfg.o -MD)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+F (..\Application\USART\usart_cfg.c)(0x5C864E8B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/usart_cfg.o -MD)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Complier\complier_lib.h)(0x5C71207C)
 I (..\Complier\complier_cfg.h)(0x5C71207B)
 I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
@@ -9240,10 +9240,10 @@ I (..\Application\GPIO\gpio_cfg.h)(0x5C824ABB)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
-F (..\Application\USART\usart_cfg.h)(0x5C779A1B)()
-F (..\Application\USART\usart_lib.c)(0x5C71205A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/usart_lib.o -MD)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+F (..\Application\USART\usart_cfg.h)(0x5C85FD4F)()
+F (..\Application\USART\usart_lib.c)(0x5C85FD95)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/usart_lib.o -MD)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Complier\complier_lib.h)(0x5C71207C)
 I (..\Complier\complier_cfg.h)(0x5C71207B)
 I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
@@ -9308,11 +9308,11 @@ I (..\Application\GPIO\gpio_cfg.h)(0x5C824ABB)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
-F (..\Application\USART\usart_lib.h)(0x5C712061)()
-F (..\Application\USART\usart_task.c)(0x5C77979C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/usart_task.o -MD)
-I (..\Application\USART\usart_task.h)(0x5C779224)
-I (..\Application\USART\usart_lib.h)(0x5C712061)
-I (..\Application\USART\usart_cfg.h)(0x5C779A1B)
+F (..\Application\USART\usart_lib.h)(0x5C85FD95)()
+F (..\Application\USART\usart_task.c)(0x5C85FD95)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/usart_task.o -MD)
+I (..\Application\USART\usart_task.h)(0x5C85FD95)
+I (..\Application\USART\usart_lib.h)(0x5C85FD95)
+I (..\Application\USART\usart_cfg.h)(0x5C85FD4F)
 I (..\Complier\complier_lib.h)(0x5C71207C)
 I (..\Complier\complier_cfg.h)(0x5C71207B)
 I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5B739900)
@@ -9377,7 +9377,7 @@ I (..\Application\GPIO\gpio_cfg.h)(0x5C824ABB)
 I (..\Application\CRC\crc_task.h)(0x5C711F82)
 I (..\Application\CRC\crc_lib.h)(0x5C711F81)
 I (..\Application\CRC\crc_cfg.h)(0x5C711F80)
-F (..\Application\USART\usart_task.h)(0x5C779224)()
+F (..\Application\USART\usart_task.h)(0x5C85FD95)()
 F (..\Application\USART\usart_dma_cfg.h)(0x5C71205E)()
 F (..\Application\USART\usart_dma_lib.c)(0x5BE6C343)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Complier -I ../Doc -I ../STM32F1xx -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Src -I ../Application/APP -I ../Application/IWDG -I ../Application/AD5593 -I ../Application/AT24Cxx -I ../Application/CRC -I ../Application/Delay -I ../Application/DHT11 -I ../Application/DS18B20 -I ../Application/GPIO -I ../Application/I2C -I ../Application/OneWire -I ../Application/PCF8563 -I ../Application/Random -I ../Application/SysTick -I ../Application/USART -I ../Application/WM8510 -I ../Application/HMC830 -I ../Application/ISP -I ../Application/SPI -I ../Application/LED -I ../Application/ADC -I ../Application/Timer -I ../Application/Key -I ../Application/Power -I ../Application/EEPROM -I ../Application/RFASK -I ../Application/FLASH -I ../Application/NRF2401 -I ../Application/LCD1602 -I ../Application/BKP -I ../Application/SHT2x -I ../Application/Decode -I ../Application/CSS -I ../Application/ADS8688 -I ../Application/IAP -I ../Application/OLED -I ../Application/WWDG -I ../Application/W25Qxx -I ../Application/RFASKHW -I ../Application/DS1302 -I ../Application/ENC28J60 -I ../Application/PID -I ../Application/ADS1256 -I ../Application/RTC -I ../Application/PVD -I ../Application/MyMalloc -I ../Application/HMC472 -I ../Application/Encode -fgnu-I./RTE/_STMF103RET6Project-ID:/Keil_v5/ARM/PACK/ARM/CMSIS/5.4.0/CMSIS/Core/Include-ID:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F103xE -DHSE_VALUE="8000000UL"-o stmf103ret6project/usart_dma_lib.o -MD)
 I (..\Application\USART\usart_dma_lib.h)(0x5C71205F)
