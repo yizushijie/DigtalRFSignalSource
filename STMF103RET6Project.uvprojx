@@ -19,7 +19,7 @@
           <Vendor>STMicroelectronics</Vendor>
           <PackID>Keil.STM32F1xx_DFP.2.3.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
-          <Cpu>IRAM(0x20000000-0x2000FFFF) IROM(0x8000000-0x807FFFF)  CLOCK(8000000) CPUTYPE("Cortex-M3")</Cpu>
+          <Cpu>IRAM(0x20000000-0x2000FFFF) IROM(0x8000000-0x807FFFF) CLOCK(8000000) CPUTYPE("Cortex-M3")</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
           <FlashDriverDll></FlashDriverDll>
@@ -135,11 +135,11 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4107</DriverSelection>
+            <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
-          <Flash2>STLink\ST-LINKIII-KEIL_SWO.dll</Flash2>
-          <Flash3></Flash3>
+          <Flash2>BIN\UL2CM3.DLL</Flash2>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -326,7 +326,7 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>0</uGnu>
+            <uGnu>1</uGnu>
             <useXO>0</useXO>
             <v6Lang>5</v6Lang>
             <v6LangP>3</v6LangP>
@@ -337,7 +337,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls>-fgnu</MiscControls>
-              <Define>USE_FULL_LL_DRIVER,USE_HAL_DRIVER,STM32F103xE,HSE_VALUE=8000000UL,HSE_STARTUP_TIMEOUT=100,LSE_STARTUP_TIMEOUT=5000,LSE_VALUE=32768,HSI_VALUE=8000000,LSI_VALUE=40000,PREFETCH_ENABLE=1</Define>
+              <Define>USE_FULL_LL_DRIVER,USE_HAL_DRIVER,STM32F103xE,HSE_VALUE=8000000UL</Define>
               <Undefine></Undefine>
               <IncludePath>..\Complier;..\Doc;..\STM32F1xx;../Drivers/CMSIS/Include;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Src;..\Application\APP;..\Application\IWDG;..\Application\AD5593;..\Application\AT24Cxx;..\Application\CRC;..\Application\Delay;..\Application\DHT11;..\Application\DS18B20;..\Application\GPIO;..\Application\I2C;..\Application\OneWire;..\Application\PCF8563;..\Application\Random;..\Application\SysTick;..\Application\USART;..\Application\WM8510;..\Application\HMC830;..\Application\ISP;..\Application\SPI;..\Application\LED;..\Application\ADC;..\Application\Timer;..\Application\Key;..\Application\Power;..\Application\EEPROM;..\Application\RFASK;..\Application\FLASH;..\Application\NRF2401;..\Application\LCD1602;..\Application\BKP;..\Application\SHT2x;..\Application\Decode;..\Application\CSS;..\Application\ADS8688;..\Application\IAP;..\Application\OLED;..\Application\WWDG;..\Application\W25Qxx;..\Application\RFASKHW;..\Application\DS1302;..\Application\ENC28J60;..\Application\PID;..\Application\ADS1256;..\Application\RTC;..\Application\PVD;..\Application\MyMalloc;..\Application\HMC472;..\Application\Encode</IncludePath>
             </VariousControls>
@@ -439,11 +439,6 @@
               <FilePath>..\STM32F1xx\stm32f1xx_it.h</FilePath>
             </File>
             <File>
-              <FileName>stm32f103xg.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\STM32F1xx\stm32f103xg.h</FilePath>
-            </File>
-            <File>
               <FileName>stm32f1xx_ll.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\STM32F1xx\stm32f1xx_ll.h</FilePath>
@@ -457,6 +452,11 @@
               <FileName>stm32_cfg.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\STM32F1xx\stm32_cfg.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f103xe.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\STM32F1xx\stm32f103xe.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -664,9 +664,9 @@
           <GroupName>STARTUP/MDKARM</GroupName>
           <Files>
             <File>
-              <FileName>startup_stm32f103xg.s</FileName>
+              <FileName>startup_stm32f103xe.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\STARTUP\MDKARM\startup_stm32f103xg.s</FilePath>
+              <FilePath>..\STARTUP\MDKARM\startup_stm32f103xe.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -1927,56 +1927,6 @@
               <FileName>random_task.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Application\Random\random_task.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Application/RFASK</GroupName>
-          <Files>
-            <File>
-              <FileName>rfask_cfg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Application\RFASK\rfask_cfg.c</FilePath>
-            </File>
-            <File>
-              <FileName>rfask_cfg.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Application\RFASK\rfask_cfg.h</FilePath>
-            </File>
-            <File>
-              <FileName>rfask_lib.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Application\RFASK\rfask_lib.c</FilePath>
-            </File>
-            <File>
-              <FileName>rfask_lib.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Application\RFASK\rfask_lib.h</FilePath>
-            </File>
-            <File>
-              <FileName>rfask_task.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Application\RFASK\rfask_task.c</FilePath>
-            </File>
-            <File>
-              <FileName>rfask_task.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Application\RFASK\rfask_task.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Application/RFASKHW</GroupName>
-          <Files>
-            <File>
-              <FileName>rfaskhw_cfg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Application\RFASKHW\rfaskhw_cfg.c</FilePath>
-            </File>
-            <File>
-              <FileName>rfaskhw_cfg.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Application\RFASKHW\rfaskhw_cfg.h</FilePath>
             </File>
           </Files>
         </Group>

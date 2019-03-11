@@ -54,4 +54,9 @@ stmf103ret6project/hmc472_lib.o: ..\Application\HMC472\hmc472_lib.c \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_wwdg.h \
   ..\Application\IWDG\iwdg_task.h ..\Application\IWDG\iwdg_lib.h \
-  ..\Application\IWDG\iwdg_cfg.h
+  ..\Application\IWDG\iwdg_cfg.h ..\Application\GPIO\gpio_task.h \
+  ..\Application\GPIO\gpio_lib.h ..\Application\GPIO\gpio_cfg.h \
+  ..\Application\Delay\delay_task.h ..\Application\Delay\delay_lib.h \
+  ..\Application\Delay\delay_cfg.h ..\Application\SysTick\systick_task.h \
+  ..\Application\SysTick\systick_lib.h \
+  ..\Application\SysTick\systick_cfg.h

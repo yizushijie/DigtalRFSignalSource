@@ -75,12 +75,14 @@ stmf103ret6project/main.o: ..\Application\APP\main.c \
   ..\Application\Encode\encode_task.h ..\Application\Encode\encode_lib.h \
   ..\Application\Encode\encode_cfg.h ..\Application\Timer\timer_task.h \
   ..\Application\Timer\timer_lib.h ..\Application\Timer\timer_cfg.h \
+  ..\Application\HMC472\hmc472_task.h ..\Application\HMC472\hmc472_lib.h \
+  ..\Application\HMC472\hmc472_cfg.h ..\Application\USART\usart_task.h \
+  ..\Application\USART\usart_lib.h ..\Application\USART\usart_cfg.h \
   ..\Application\LED\led_task.h ..\Application\LED\led_lib.h \
   ..\Application\LED\led_cfg.h ..\Application\Random\random_task.h \
   ..\Application\Random\random_lib.h ..\Application\Random\random_cfg.h \
   ..\Application\RTC\rtc_task.h ..\Application\RTC\rtc_lib.h \
-  ..\Application\RTC\rtc_cfg.h ..\Application\USART\usart_task.h \
-  ..\Application\USART\usart_lib.h ..\Application\USART\usart_cfg.h \
-  ..\Application\WM8510\wm8510_task.h ..\Application\WM8510\wm8510_lib.h \
-  ..\Application\WM8510\wm8510_cfg.h ..\Application\WWDG\wwdg_task.h \
-  ..\Application\WWDG\wwdg_lib.h ..\Application\WWDG\wwdg_cfg.h
+  ..\Application\RTC\rtc_cfg.h ..\Application\WM8510\wm8510_task.h \
+  ..\Application\WM8510\wm8510_lib.h ..\Application\WM8510\wm8510_cfg.h \
+  ..\Application\WWDG\wwdg_task.h ..\Application\WWDG\wwdg_lib.h \
+  ..\Application\WWDG\wwdg_cfg.h

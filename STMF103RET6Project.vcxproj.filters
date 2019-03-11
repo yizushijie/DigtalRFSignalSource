@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Application">
@@ -72,9 +72,6 @@
     </Filter>
     <Filter Include="Application\IAP">
       <UniqueIdentifier>{62A8296C-CE33-9730-D744-1A25434FF330}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Application\ISP">
-      <UniqueIdentifier>{B4AA296C-2036-9730-2947-1A259551F330}</UniqueIdentifier>
     </Filter>
     <Filter Include="Application\IWDG">
       <UniqueIdentifier>{F3105FF1-DF09-7E43-083C-63C8F4935D4F}</UniqueIdentifier>
@@ -171,6 +168,9 @@
     </Filter>
     <Filter Include="STM32F1xx">
       <UniqueIdentifier>{0572FADD-71DC-AE54-BA1A-60FA26C48CA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\IAP\ISP">
+      <UniqueIdentifier>{B4AA296C-2036-9730-2947-1A259551F330}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -379,13 +379,13 @@
       <Filter>Application\IAP</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\ISP\isp_cfg.h">
-      <Filter>Application\ISP</Filter>
+      <Filter>Application\IAP\ISP</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\ISP\isp_lib.h">
-      <Filter>Application\ISP</Filter>
+      <Filter>Application\IAP\ISP</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\ISP\isp_task.h">
-      <Filter>Application\ISP</Filter>
+      <Filter>Application\IAP\ISP</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\IWDG\iwdg_cfg.h">
       <Filter>Application\IWDG</Filter>
@@ -891,13 +891,13 @@
       <Filter>Application\IAP</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\ISP\isp_cfg.c">
-      <Filter>Application\ISP</Filter>
+      <Filter>Application\IAP\ISP</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\ISP\isp_lib.c">
-      <Filter>Application\ISP</Filter>
+      <Filter>Application\IAP\ISP</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\ISP\isp_task.c">
-      <Filter>Application\ISP</Filter>
+      <Filter>Application\IAP\ISP</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\IWDG\iwdg_cfg.c">
       <Filter>Application\IWDG</Filter>
