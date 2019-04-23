@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Application">
@@ -73,6 +73,9 @@
     <Filter Include="Application\IAP">
       <UniqueIdentifier>{62A8296C-CE33-9730-D744-1A25434FF330}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Application\ISP">
+      <UniqueIdentifier>{B4AA296C-2036-9730-2947-1A259551F330}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Application\IWDG">
       <UniqueIdentifier>{F3105FF1-DF09-7E43-083C-63C8F4935D4F}</UniqueIdentifier>
     </Filter>
@@ -108,12 +111,6 @@
     </Filter>
     <Filter Include="Application\Power">
       <UniqueIdentifier>{35E1CD1D-A1F7-CBB3-EA6E-57D556C49C3B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Application\RFASK">
-      <UniqueIdentifier>{7FAEDA1D-EBC4-D8B3-343C-64D5A091A93B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Application\RFASKHW">
-      <UniqueIdentifier>{DE5340FF-4AB5-1D0D-D322-64BF3F8354CC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Application\RTC">
       <UniqueIdentifier>{11D1296C-7D5C-9730-866D-1A25F277F330}</UniqueIdentifier>
@@ -168,9 +165,6 @@
     </Filter>
     <Filter Include="STM32F1xx">
       <UniqueIdentifier>{0572FADD-71DC-AE54-BA1A-60FA26C48CA9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Application\IAP\ISP">
-      <UniqueIdentifier>{B4AA296C-2036-9730-2947-1A259551F330}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -379,13 +373,13 @@
       <Filter>Application\IAP</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\ISP\isp_cfg.h">
-      <Filter>Application\IAP\ISP</Filter>
+      <Filter>Application\ISP</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\ISP\isp_lib.h">
-      <Filter>Application\IAP\ISP</Filter>
+      <Filter>Application\ISP</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\ISP\isp_task.h">
-      <Filter>Application\IAP\ISP</Filter>
+      <Filter>Application\ISP</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\IWDG\iwdg_cfg.h">
       <Filter>Application\IWDG</Filter>
@@ -488,18 +482,6 @@
     </ClInclude>
     <ClInclude Include="..\Application\Power\power_task.h">
       <Filter>Application\Power</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Application\RFASK\rfask_cfg.h">
-      <Filter>Application\RFASK</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Application\RFASK\rfask_lib.h">
-      <Filter>Application\RFASK</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Application\RFASK\rfask_task.h">
-      <Filter>Application\RFASK</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Application\RFASKHW\rfaskhw_cfg.h">
-      <Filter>Application\RFASKHW</Filter>
     </ClInclude>
     <ClInclude Include="..\Application\RTC\rtc_cfg.h">
       <Filter>Application\RTC</Filter>
@@ -672,7 +654,7 @@
     <ClInclude Include="..\STM32F1xx\stm32_cfg.h">
       <Filter>STM32F1xx</Filter>
     </ClInclude>
-    <ClInclude Include="..\STM32F1xx\stm32f103xg.h">
+    <ClInclude Include="..\STM32F1xx\stm32f103xe.h">
       <Filter>STM32F1xx</Filter>
     </ClInclude>
     <ClInclude Include="..\STM32F1xx\stm32f1xx.h">
@@ -891,13 +873,13 @@
       <Filter>Application\IAP</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\ISP\isp_cfg.c">
-      <Filter>Application\IAP\ISP</Filter>
+      <Filter>Application\ISP</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\ISP\isp_lib.c">
-      <Filter>Application\IAP\ISP</Filter>
+      <Filter>Application\ISP</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\ISP\isp_task.c">
-      <Filter>Application\IAP\ISP</Filter>
+      <Filter>Application\ISP</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\IWDG\iwdg_cfg.c">
       <Filter>Application\IWDG</Filter>
@@ -1000,18 +982,6 @@
     </ClCompile>
     <ClCompile Include="..\Application\Power\power_task.c">
       <Filter>Application\Power</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Application\RFASK\rfask_cfg.c">
-      <Filter>Application\RFASK</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Application\RFASK\rfask_lib.c">
-      <Filter>Application\RFASK</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Application\RFASK\rfask_task.c">
-      <Filter>Application\RFASK</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Application\RFASKHW\rfaskhw_cfg.c">
-      <Filter>Application\RFASKHW</Filter>
     </ClCompile>
     <ClCompile Include="..\Application\RTC\rtc_cfg.c">
       <Filter>Application\RTC</Filter>
@@ -1166,7 +1136,7 @@
     <ClCompile Include="..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c">
       <Filter>Drivers\STM32F1xx_HAL_Driver</Filter>
     </ClCompile>
-    <ClCompile Include="..\STARTUP\MDKARM\startup_stm32f103xg.s">
+    <ClCompile Include="..\STARTUP\MDKARM\startup_stm32f103xe.s">
       <Filter>STARTUP\MDKARM</Filter>
     </ClCompile>
     <ClCompile Include="..\STM32F1xx\stm32_cfg.c">

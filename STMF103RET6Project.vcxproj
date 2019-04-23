@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="STMF103RET6Project|Win32">
       <Configuration>STMF103RET6Project</Configuration>
@@ -17,7 +17,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -38,7 +38,7 @@
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>USE_FULL_LL_DRIVER;USE_HAL_DRIVER;STM32F103xE;HSE_VALUE=8000000UL;HSE_STARTUP_TIMEOUT=100;LSE_STARTUP_TIMEOUT=5000;LSE_VALUE=32768;HSI_VALUE=8000000;LSI_VALUE=40000;PREFETCH_ENABLE=1;_IAR_;__ICCARM__;__CC_ARM;_Pragma(x)=;__interrupt=;__packed=__attribute__((__packed__));__weak=__attribute__((weak));%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_FULL_LL_DRIVER;USE_HAL_DRIVER;STM32F103xE;HSE_VALUE=8000000UL;_IAR_;__ICCARM__;__CC_ARM;_Pragma(x)=;__interrupt=;__packed=__attribute__((__packed__));__weak=__attribute__((weak));%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\Complier;..\Doc;..\STM32F1xx;..\Drivers\CMSIS\Include;..\Drivers\STM32F1xx_HAL_Driver\Inc;..\Drivers\STM32F1xx_HAL_Driver\Src;..\Application\APP;..\Application\IWDG;..\Application\AD5593;..\Application\AT24Cxx;..\Application\CRC;..\Application\Delay;..\Application\DHT11;..\Application\DS18B20;..\Application\GPIO;..\Application\I2C;..\Application\OneWire;..\Application\PCF8563;..\Application\Random;..\Application\SysTick;..\Application\USART;..\Application\WM8510;..\Application\HMC830;..\Application\ISP;..\Application\SPI;..\Application\LED;..\Application\ADC;..\Application\Timer;..\Application\Key;..\Application\Power;..\Application\EEPROM;..\Application\RFASK;..\Application\FLASH;..\Application\NRF2401;..\Application\LCD1602;..\Application\BKP;..\Application\SHT2x;..\Application\Decode;..\Application\CSS;..\Application\ADS8688;..\Application\IAP;..\Application\OLED;..\Application\WWDG;..\Application\W25Qxx;..\Application\RFASKHW;..\Application\DS1302;..\Application\ENC28J60;..\Application\PID;..\Application\ADS1256;..\Application\RTC;..\Application\PVD;..\Application\MyMalloc;..\Application\HMC472;..\Application\Encode;D:\Keil_v5\ARM\RV31;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Disabled</Optimization>
     </ClCompile>
@@ -152,10 +152,6 @@
     <ClInclude Include="..\Application\Power\power_cfg.h" />
     <ClInclude Include="..\Application\Power\power_lib.h" />
     <ClInclude Include="..\Application\Power\power_task.h" />
-    <ClInclude Include="..\Application\RFASK\rfask_cfg.h" />
-    <ClInclude Include="..\Application\RFASK\rfask_lib.h" />
-    <ClInclude Include="..\Application\RFASK\rfask_task.h" />
-    <ClInclude Include="..\Application\RFASKHW\rfaskhw_cfg.h" />
     <ClInclude Include="..\Application\RTC\rtc_cfg.h" />
     <ClInclude Include="..\Application\RTC\rtc_lib.h" />
     <ClInclude Include="..\Application\RTC\rtc_task.h" />
@@ -213,7 +209,7 @@
     <ClInclude Include="..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_wwdg.h" />
     <ClInclude Include="..\STM32F1xx\stm32_assert.h" />
     <ClInclude Include="..\STM32F1xx\stm32_cfg.h" />
-    <ClInclude Include="..\STM32F1xx\stm32f103xg.h" />
+    <ClInclude Include="..\STM32F1xx\stm32f103xe.h" />
     <ClInclude Include="..\STM32F1xx\stm32f1xx.h" />
     <ClInclude Include="..\STM32F1xx\stm32f1xx_it.h" />
     <ClInclude Include="..\STM32F1xx\stm32f1xx_ll.h" />
@@ -324,10 +320,6 @@
     <ClCompile Include="..\Application\Power\power_cfg.c" />
     <ClCompile Include="..\Application\Power\power_lib.c" />
     <ClCompile Include="..\Application\Power\power_task.c" />
-    <ClCompile Include="..\Application\RFASK\rfask_cfg.c" />
-    <ClCompile Include="..\Application\RFASK\rfask_lib.c" />
-    <ClCompile Include="..\Application\RFASK\rfask_task.c" />
-    <ClCompile Include="..\Application\RFASKHW\rfaskhw_cfg.c" />
     <ClCompile Include="..\Application\RTC\rtc_cfg.c" />
     <ClCompile Include="..\Application\RTC\rtc_lib.c" />
     <ClCompile Include="..\Application\RTC\rtc_task.c" />
@@ -379,7 +371,7 @@
     <ClCompile Include="..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_tim.c" />
     <ClCompile Include="..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usart.c" />
     <ClCompile Include="..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c" />
-    <ClCompile Include="..\STARTUP\MDKARM\startup_stm32f103xg.s" />
+    <ClCompile Include="..\STARTUP\MDKARM\startup_stm32f103xe.s" />
     <ClCompile Include="..\STM32F1xx\stm32_cfg.c" />
     <ClCompile Include="..\STM32F1xx\stm32f1xx_it.c" />
     <ClCompile Include="..\STM32F1xx\system_stm32f1xx.c" />
