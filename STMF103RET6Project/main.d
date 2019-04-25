@@ -1,16 +1,16 @@
 stmf103ret6project/main.o: ..\Application\APP\main.c \
   ..\Application\APP\main.h ..\Application\APP\config.h \
   ..\Complier\complier_lib.h ..\Complier\complier_cfg.h \
-  D:\Keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  D:\Keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  D:\Keil\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  D:\Keil\ARM\ARMCLANG\Bin\..\include\stdio.h \
-  D:\Keil\ARM\ARMCLANG\Bin\..\include\string.h \
-  D:\Keil\ARM\ARMCLANG\Bin\..\include\math.h \
-  D:\Keil\ARM\ARMCLANG\Bin\..\include\stdarg.h \
-  D:\Keil\ARM\ARMCLANG\Bin\..\include\stdint.h ..\STM32F1xx\stm32_cfg.h \
-  ..\STM32F1xx\stm32f1xx.h ..\STM32F1xx\stm32f103xe.h \
-  ..\Drivers\CMSIS\Include\core_cm3.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\STM32F1xx\stm32_cfg.h ..\STM32F1xx\stm32f1xx.h \
+  ..\STM32F1xx\stm32f103xe.h ..\Drivers\CMSIS\Include\core_cm3.h \
   ..\Drivers\CMSIS\Include\core_cmInstr.h \
   ..\Drivers\CMSIS\Include\cmsis_armcc_V6.h \
   ..\Drivers\CMSIS\Include\core_cmFunc.h ..\STM32F1xx\system_stm32f1xx.h \
@@ -75,14 +75,22 @@ stmf103ret6project/main.o: ..\Application\APP\main.c \
   ..\Application\Encode\encode_task.h ..\Application\Encode\encode_lib.h \
   ..\Application\Encode\encode_cfg.h ..\Application\Timer\timer_task.h \
   ..\Application\Timer\timer_lib.h ..\Application\Timer\timer_cfg.h \
-  ..\Application\HMC472\hmc472_task.h ..\Application\HMC472\hmc472_lib.h \
-  ..\Application\HMC472\hmc472_cfg.h ..\Application\USART\usart_task.h \
-  ..\Application\USART\usart_lib.h ..\Application\USART\usart_cfg.h \
-  ..\Application\LED\led_task.h ..\Application\LED\led_lib.h \
-  ..\Application\LED\led_cfg.h ..\Application\Random\random_task.h \
-  ..\Application\Random\random_lib.h ..\Application\Random\random_cfg.h \
-  ..\Application\RTC\rtc_task.h ..\Application\RTC\rtc_lib.h \
-  ..\Application\RTC\rtc_cfg.h ..\Application\WM8510\wm8510_task.h \
+  ..\Application\USART\usart_task.h ..\Application\USART\usart_lib.h \
+  ..\Application\USART\usart_cfg.h ..\Application\HMC472\hmc472_task.h \
+  ..\Application\HMC472\hmc472_lib.h ..\Application\HMC472\hmc472_cfg.h \
+  ..\Application\Key\key_task.h ..\Application\Key\key_lib.h \
+  ..\Application\Key\key_cfg.h ..\Application\RFASKHW\rfaskhw_cfg.h \
+  ..\Application\RFASK\rfask_task.h ..\Application\RFASK\rfask_lib.h \
+  ..\Application\RFASK\rfask_cfg.h ..\Application\WM8510\wm8510_task.h \
   ..\Application\WM8510\wm8510_lib.h ..\Application\WM8510\wm8510_cfg.h \
+  ..\Application\Power\power_task.h ..\Application\Power\power_lib.h \
+  ..\Application\Power\power_cfg.h ..\Application\ADC\adc_task.h \
+  ..\Application\ADC\adc_lib.h ..\Application\ADC\adc_cfg.h \
+  ..\Application\LED\led_task.h ..\Application\LED\led_lib.h \
+  ..\Application\LED\led_cfg.h ..\Application\Decode\decode_task.h \
+  ..\Application\Decode\decode_lib.h ..\Application\Decode\decode_cfg.h \
+  ..\Application\Random\random_task.h ..\Application\Random\random_lib.h \
+  ..\Application\Random\random_cfg.h ..\Application\RTC\rtc_task.h \
+  ..\Application\RTC\rtc_lib.h ..\Application\RTC\rtc_cfg.h \
   ..\Application\WWDG\wwdg_task.h ..\Application\WWDG\wwdg_lib.h \
   ..\Application\WWDG\wwdg_cfg.h
